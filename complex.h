@@ -3,9 +3,8 @@
  * Author: Michael F. Hutt
  * hutt@ieee.org
  * Jan. 1999
- * $Id: complex.h,v 1.1 2006/01/28 14:20:02 mike Exp $
  *
- * Copyright (c) 1999-2004 <Michael F. Hutt>
+ * Copyright (c) 1999-2013 <Michael F. Hutt>
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
