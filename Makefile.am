@@ -12,7 +12,7 @@ noinst_PROGRAMS = test_complexlib
 
 test_complexlib_SOURCES = $(libkomplex_la_SOURCES) test_complexlib.cpp
 test_complexlib_CXXFLAGS = $(libkomplex_la_CXXFLAGS)
-test_complexlib_LDADD    = $(libkomplex_la_LIBADD) -lgtest
+test_complexlib_LDADD    = $(libkomplex_la_LIBADD) -lgtest -lgtest_main -lpthread
 
 TESTS = test_complexlib
 
