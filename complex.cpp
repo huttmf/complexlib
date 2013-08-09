@@ -265,7 +265,7 @@ Complex coth(Complex z) { return cosh(z)/sinh(z); }
 Complex asin(Complex z) { return -j*log(j*z+sqrt(1.0-z*z)); }
 
 // take the acos of a complex number
-Complex acos(Complex z) { return -j*log(z-sqrt(z*z-1.0)); }
+Complex acos(Complex z) { return -j*log(z+sqrt(z*z-1.0)); }
 
 // take the atan of a complex number
 Complex atan(Complex z) { return (0.5*j)*log((j+z)/(j-z)); }

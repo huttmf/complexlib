@@ -229,5 +229,151 @@ TEST (Exponent, CheckExp) {
 }
 
 
+TEST (Pow, CheckPow) {
+  Complex z1 = 2 + 3*j;
+  Complex z2 = pow(z1,2.0);
+  EXPECT_EQ(-5, z2.re());
+  EXPECT_EQ(12, z2.im());
+
+  z2 = pow(z1,0.0);
+  EXPECT_EQ(1, z2.re());
+  EXPECT_EQ(0, z2.im());
+}
+
+
+TEST (TrigFunction, Sin) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(3.4, sin(z).re());
+  EXPECT_GT(-1.5, sin(z).im());
+}
+
+
+TEST (TrigFunction, Cos) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-1.56, cos(z).re());
+  EXPECT_GT(-3.29, cos(z).im());
+}
+
+
+TEST (TrigFunction, Tan) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-0.028, tan(z).re());
+  EXPECT_LT(1.02, tan(z).im());
+}
+
+
+TEST (TrigFunction, Sec) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-0.117, sec(z).re());
+  EXPECT_LT(0.247, sec(z).im());
+}
+
+
+TEST (TrigFunction, Csc) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(0.244, csc(z).re());
+  EXPECT_LT(0.107, csc(z).im());
+}
+
+
+TEST (TrigFunction, Cot) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-0.027, cot(z).re());
+  EXPECT_GT(-0.975, cot(z).im());
+}
+
+
+TEST (TrigFunction, Sinh) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-1.509, sinh(z).re());
+  EXPECT_LT(3.420, sinh(z).im());
+}
+
+
+TEST (TrigFunction, Cosh) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-1.56, cosh(z).re());
+  EXPECT_LT(3.29, cosh(z).im());
+}
+
+
+TEST (TrigFunction, Tanh) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(1.02, tanh(z).re());
+  EXPECT_GT(-0.028, tanh(z).im());
+}
+
+
+TEST (TrigFunction, Sech) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-0.117, sech(z).re());
+  EXPECT_GT(-0.247, sech(z).im());
+}
+
+
+TEST (TrigFunction, Csch) {
+  Complex z = 2 + 2*j;
+  EXPECT_GT(-0.107, csch(z).re());
+  EXPECT_GT(-0.244, csch(z).im());
+}
+
+
+TEST (TrigFunction, Coth) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(0.975, coth(z).re());
+  EXPECT_LT(0.027, coth(z).im());
+}
+
+
+TEST (TrigFunction, Asin) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(0.754, asin(z).re());
+  EXPECT_LT(1.73, asin(z).im());
+}
+
+
+TEST (TrigFunction, Acos) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(0.816, acos(z).re());
+  EXPECT_GT(-1.73, acos(z).im());
+}
+
+
+TEST (TrigFunction, Atan) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(1.311, atan(z).re());
+  EXPECT_LT(0.238, atan(z).im());
+}
+
+
+TEST (TrigFunction, Asinh) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(1.734, asinh(z).re());
+  EXPECT_LT(0.754, asinh(z).im());
+}
+
+
+TEST (TrigFunction, Acosh) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(1.734, acosh(z).re());
+  EXPECT_LT(0.816, acosh(z).im());
+}
+
+
+TEST (TrigFunction, Atanh) {
+  Complex z = 2 + 2*j;
+  EXPECT_LT(0.238, atanh(z).re());
+  EXPECT_LT(1.311, atanh(z).im());
+}
+
+
+TEST (Round, CheckRound) {
+  Complex z1 = 1.5255 + 3.2515*j;
+  Complex z2 = z1.rnd(2);
+  EXPECT_EQ(1.53,z2.re());
+  EXPECT_EQ(3.25,z2.im());
+}
+    
+
 
 
