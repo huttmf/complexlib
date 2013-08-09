@@ -2,7 +2,7 @@ Complex Number Library
 Version 0.9.0
 
 This complex number library for C++ was originally developed at a time
-when the Standard C++ Library did not hyperbolic trigonometric
+when the Standard C++ Library did not support hyperbolic trigonometric
 functions with complex arguments.
 
 The primary reference used in coding this library was: 
