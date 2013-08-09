@@ -8,7 +8,7 @@ include_HEADERS = complex.h
 
 libcomplex_la_LDFLAGS = -version-info 0:9:0 -L/usr/local/lib
 
-noinst_PROGRAMS = test_complexlib
+check_PROGRAMS = test_complexlib
 
 test_complexlib_SOURCES = $(libcomplex_la_SOURCES) test_complexlib.cpp
 test_complexlib_CXXFLAGS = $(libcomplex_la_CXXFLAGS)

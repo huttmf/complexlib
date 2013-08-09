@@ -1,9 +1,9 @@
-About Complex Number Library
-----------------------------
+Complex Number Library 
+Version 0.9.0
 
-This a complex number library for C++. It was originally developed at
-a time when the Standard C++ Library did not have support for
-hyperbolic trigonometric functions with complex arguments.
+This complex number library for C++ was originally developed at a time
+when the Standard C++ Library did not have support for hyperbolic
+trigonometric functions with complex arguments.
 
 The primary reference used in coding this library was: 
 
