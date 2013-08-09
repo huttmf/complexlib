@@ -8,8 +8,10 @@ include_HEADERS = complex.h
 
 libcomplex_la_LDFLAGS = -version-info 0:9:0 -L/usr/local/lib
 
-check_PROGRAMS = test_complexlib
+noinst_PROGRAMS = t
+t_SOURCES = t.cpp
 
+check_PROGRAMS = test_complexlib
 test_complexlib_SOURCES = $(libcomplex_la_SOURCES) test_complexlib.cpp
 test_complexlib_CXXFLAGS = $(libcomplex_la_CXXFLAGS)
 test_complexlib_LDADD    = $(libcomplex_la_LIBADD) -lgtest -lgtest_main -lpthread
