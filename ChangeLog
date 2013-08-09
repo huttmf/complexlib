@@ -1,0 +1,22 @@
+2013-08-09 Michael Hutt <hutt@ieee.org>
+
+	* Updated project to build with GNU autotools.
+	* Incorported googletest (gtest) for unit testing.
+
+
+2004-01-09 Michael Hutt <hutt@ieee.org>
+
+	* Jan. 9, 2004 - modified to use std c++ on linux for iostream and
+	cmath.
+
+
+2000-09-18 Michael Hutt <hutt@ieee.org>
+
+	* Converted to a library.
+
+
+1999-01-15 Michael Hutt <hutt@ieee.org>
+
+	* Began builing complex.cpp, specifically to have support for
+	hyberbolic trigonometric functions with complex arguments
+

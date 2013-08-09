@@ -2,10 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.68])
-AC_INIT([komplexlib], [0.9.0], [hutt at ieee dot org])
+AC_INIT([complexlib], [0.9.0], [hutt at ieee dot org])
 AC_CONFIG_SRCDIR([complex.h])
 AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE(libkomplex,0.9.0)
+AM_INIT_AUTOMAKE(libcomplex,0.9.0)
 AC_CONFIG_MACRO_DIR([m4])
 
 # Checks for programs.

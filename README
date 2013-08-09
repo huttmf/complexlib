@@ -1,0 +1,13 @@
+About Complex Number Library
+----------------------------
+
+This a complex number library for C++. It was originally developed at
+a time when the Standard C++ Library did not have support for
+hyperbolic trigonometric functions with complex arguments.
+
+The primary reference used in coding this library was: 
+
+Advanced Engineering Mathematics, by Erwin Kreyszig Seventh Edition,
+1993, John Wiley & Sons, Inc.
+
+

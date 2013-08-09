@@ -29,42 +29,6 @@
  * Reference: Advanced Engineering Mathematics, by Erwin Kreyszig
  * Seventh Edition, 1993, John Wiley & Sons, Inc.
  *
- * Jan. 9, 2004 - ported to std c++ on linux.
- *
- * Sep. 18, 2000
- * =============
- * Compiled as a library.
- *
- * Jan. 15, 1999
- * =============
- * Changed mag() to abs(), and phase() to arg()
- * for consistency
- * Also fixed problem with sqrt() and log()
- * Needed to use atan2 for arg()
- *
- * Jan. 14, 1999
- * =============
- * Added support for trig functions, exp, and log
- *
- * This class currently supports the following
- * functions for complex numbers:
- *
- * re(), im()
- * conj()
- * abs(), arg()
- * norm()
- * +,-,*,/, in any order
- * +=, -=
- * sqrt()
- * log()
- * to take the log of a negative number, define it as complex first
- * exp()
- * pow()
- * sin(), cos(), tan(), sec(), csc(), cot()
- * sinh(), cosh(), tanh(), sech(), csch(), coth()
- * asin(), acos(), atan(), asinh(), acosh(), atanh()
- * <<, used with cout
- * rnd()
  */
 
 
