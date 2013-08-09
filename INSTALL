@@ -36,4 +36,11 @@ To run the tests you will need googletest (gtest) installed also.
 make check 
 will run the tests from test_complexlib.cpp
 
+make will build a small test program: t.cpp as an example after which
+you can just run 
+
+./t 
+
+to see the example.
+
 
