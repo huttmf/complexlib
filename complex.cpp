@@ -4,9 +4,8 @@
  * Michael F. Hutt
  * hutt@ieee.org
  * Jan. 1999
- * $Id: complex.cpp,v 1.2 2006/06/08 11:11:12 mike Exp $
  *
- * Copyright (c) 1999-2004 <Michael F. Hutt>
+ * Copyright (c) 1999-2013 <Michael F. Hutt>
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
