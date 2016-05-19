@@ -1,6 +1,6 @@
 ## Synopsis
 
-C++ Complex Number Library 
+C++ Complex Number Library   
 Version 1.0
 
 ## Code Example
