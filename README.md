@@ -50,7 +50,7 @@ make check
 
 ## License
 
-Copyright (c) 1999-present <Michael F. Hutt>
+Copyright (c) 1999-present Michael F. Hutt
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
