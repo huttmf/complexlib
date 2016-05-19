@@ -7,9 +7,7 @@ Version 1.0
 
      #include "complex.h"
 
-
      Complex j = Complex(0.0,1.0);
-  
      Complex z1 = 1+2*j;
      Complex z2 = 2+3*j;
   
