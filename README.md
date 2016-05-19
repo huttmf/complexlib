@@ -37,15 +37,15 @@ Advanced Engineering Mathematics, by Erwin Kreyszig Seventh Edition,
 
 ## Installation
 
-./configure
-make
+./configure  
+make  
 make install
 
 ## Tests
 
 Requires gtest
 
-make check
+make check  
 ./test_complexlib 
 
 ## License
