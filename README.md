@@ -5,14 +5,9 @@ Version 1.0
 
 ## Code Example
 
-   #include <iostream>
-   #include "complex.h"
+     #include "complex.h"
 
-   using std::cout;
-   using std::endl;
 
-   int main()
-   {
      Complex j = Complex(0.0,1.0);
   
      Complex z1 = 1+2*j;
@@ -30,9 +25,6 @@ Version 1.0
      cout << "The sin is: " << sin(z1) << endl;
      cout << "The acosh is: " << acosh(z1) << endl;
      cout << "Rounded to 2 decimal places: " << acosh(z1).rnd(2) << endl;
-
-     return 0;
-    }
 
 ## Motivation
 
